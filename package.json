@@ -1,0 +1,31 @@
+{
+  "name": "wdio-bstack-public",
+  "version": "0.1.0",
+  "description": "Troubleshooting of WebdriverIO and BrowserStack Automate on iOS Devices",
+  "engines": {
+    "node": ">=12.14.1"
+  },
+  "scripts": {
+    "test": "npm run single",
+    "single": "./node_modules/.bin/wdio conf/single.conf.js"
+  },
+  "keywords": [
+    "webdriverio",
+    "browserstack",
+    "selenium",
+    "tests",
+    "appium",
+    "ios"
+  ],
+  "dependencies": {
+    "@wdio/cli": "^7.11.0",
+    "browserstack-local": "^1.4.8",
+    "chai": "^4.2.0",
+    "webdriverio": "^7.11.0",
+    "global-agent": "^3.0.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.11.0",
+    "@wdio/mocha-framework": "^7.11.0"
+  }
+}
